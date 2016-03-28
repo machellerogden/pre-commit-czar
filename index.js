@@ -289,12 +289,7 @@ Hook.log = {
 
   failure: [
     'We\'ve failed to pass the specified git pre-commit hooks as the `%s`',
-    'hook returned an exit code (%d). If you\'re feeling adventurous you can',
-    'skip the git pre-commit hooks by adding the following flags to your commit:',
-    '',
-    '  git commit -n (or --no-verify)',
-    '',
-    'This is ill-advised since the commit is broken.'
+    'hook returned an exit code (%d).'
   ].join('\n')
 };
 
