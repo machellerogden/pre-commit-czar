@@ -1,6 +1,6 @@
 {
   "name": "pre-commit-czar",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A fork of pre-commit which does not instruct the user how to ignore the hooks. See https://github.com/observing/pre-commit for more info.",
   "main": "index.js",
   "scripts": {
@@ -37,7 +37,6 @@
   "devDependencies": {
     "assume": "1.4.x",
     "istanbul": "0.4.x",
-    "mocha": "2.4.x",
     "mocha": "2.3.x",
     "pre-commit": "git://github.com/machellerogden/pre-commit-czar.git"
   }
